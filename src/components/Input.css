@@ -1,0 +1,87 @@
+input {
+  margin-left: 25px;
+  width: 100%;
+  background: none transparent;
+  outline: none;
+  border: none;
+}
+
+input::placeholder {
+  margin-left: 10px;
+}
+
+.container {
+  margin: 10px;
+  width: 200px;
+  background-color: transparent;
+  height: 56px;
+  border: 1px solid rgb(130, 130, 130);
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.disabled {
+  cursor: default;
+  background-color: rgba(239, 239, 239, 0.3);
+  color: rgb(170, 170, 170);
+  border-color: rgba(118, 118, 118, 0.3);
+}
+
+.inputFocused:focus-within {
+  border: 1px solid #2962ff;
+}
+
+.error {
+  border: 1px solid #d32f2f;
+}
+
+.error:hover {
+  border: 1px solid #333333;
+}
+
+.error:focus-within {
+  border: 1px solid #d32f2f;
+}
+
+.helperText {
+  font-size: 10px;
+  margin-left: 25px;
+}
+
+.helperTextError {
+  font-size: 10px;
+  margin-left: 25px;
+  color: #d32f2f;
+}
+
+.icon {
+  width: 365px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-icons {
+  position: absolute;
+  padding-left: 2px;
+  vertical-align: middle;
+}
+
+.sm {
+  width: 200px;
+  height: 40px;
+}
+
+.md {
+  width: 200px;
+  height: 56px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.textarea {
+  margin: 10px;
+  width: 200px;
+}
