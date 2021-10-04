@@ -11,7 +11,6 @@ html {
 body {
   margin: 15px;
   background-color: white;
-  display: flex;
 }
 
 div {
@@ -42,4 +41,14 @@ div {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #a9a9a9;
+}
+
+footer a {
+  text-decoration: none;
+  color: #a9a9a9;
 }
